@@ -1,0 +1,26 @@
+name: MineMoney
+main: com.kraken.minemoney.MineMoney
+version: 0.1
+api-version: 1.20
+commands: 
+     mm:
+        description: Info for the MineMoney plugin.
+        usage: /<command>
+     mm bal:
+        description: Displays your balance, or the balance of another player.
+        usage: /<command> <player_name_OPT>
+        aliases: [mm balance, mm bank, mm eco]
+     mm exchange:
+        description: Exchanges all items of a designated type in your inventory for currency.
+        usage: /<command>
+     mm pay:
+        description: Pays another player from your balance.
+        usage: /<command> <player_name>
+        aliases: [mm give, mm send]
+     mm add:
+        description: Pays a player, adding money to the economy.
+        usage: /<command> <player_name> <amount>
+        aliases: [mm bonus]
+     mm toggle:
+        description: Toggles the specified plugin configuration option between on/off (true/false).
+        usage: /<command> <option> <value_OPT>

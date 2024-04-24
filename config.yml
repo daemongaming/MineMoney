@@ -1,0 +1,42 @@
+# ------------------------------------------------------
+# MINEMONEY Configuration File (config.yml)
+# 
+# Editing the settings in this file will change the way
+# plugin works on your server. To reset this file to
+# its default values, simply delete your config.yml and
+# stop/restart your server.
+# ------------------------------------------------------
+#
+# LOADED MARKER | Dummy value to check against at start-up, don't change!
+loaded: true
+# 
+# LANGUAGE | Currently supported languages: English
+language: English
+# 
+# SILENT MODE | If true, most messages will not be relayed to players.
+silent_mode: false
+#
+# OP REQUIREMENT | If true, players must have OP permissions to use the plugin.
+op_required: false
+#
+# PERMISSIONS REQUIREMENT | If true, players must have the proper permissions to use the plugin.
+permissions: false
+#
+# DEBUG MODE | If true, server admins can see debug messages in the console
+debug_mode: false
+#
+# CURRENCY SYMBOL | The currency symbol displayed before MineMoney balances.
+currency_symbol: '$'
+#
+# EXCHANGE ITEM | The ID of the item that players can exchange for currency.
+exchange_item: 'EMERALD'
+#
+# EXCHANGE PRICE | The amount of currency a player receives for each exchange item. Set to 0 to disable exchanging items for currency.
+exchange_price: 0
+#
+# DAILY LOGIN BONUS | The amount of currency to give players for every new day they log in. Set to 0 to disable.
+daily_bonus: 0
+#
+# DAILY LOGIN BONUS MULTIPLIER | The amount to increase the login bonus by for each successive day logged in. Set to 0 to disable.
+daily_multiplier: 0
+#
